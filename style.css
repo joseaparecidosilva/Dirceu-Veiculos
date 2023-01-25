@@ -1,0 +1,145 @@
+/* Root */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+root {
+    /* Monocromático azul */
+    --azul1 : #769DF7;
+    --azul2 : #2C68F5;
+    --azul3 : #2353C2;
+    --azul4 : #153275;
+    --azul5 : #384B75;
+    
+    --branco : #fff;
+    --preto : #000;
+
+    --vermelho1 : #911717;
+    --vermelho2 : #BF0413;
+
+    --leite : #FEE8DA;
+    --leite2 : #D9C6B0;
+
+}
+
+/* Fim do root */
+
+/* Menu */
+
+body {
+    background-color: #bcb9b9;
+}
+
+.cabecalho {
+    padding: 10px 80px;
+}
+
+.cab-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cab-logo {
+    background-color: #616161;
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.cab-menu-ul {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cab-menu-li{
+    font-size: 1.3em;
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+}
+.but1{
+    background-color: #616161;
+    color: #ffffff;
+    border: 0px;
+    font-size: 1em;
+    border-radius: 20px;
+}
+
+/* Fim do menu */
+
+/* Conteúdo-1 */
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #000000;
+}
+.cont-div1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+}
+.txt-div1{
+    padding: 80px;
+    background-color: #616161;
+}
+.imagem-div1{
+
+}
+
+/* conteúdo-2 */
+
+.cont-div2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    border-top: 1px solid #000000;
+
+}
+.servicos {
+
+}
+.redes-loc {
+
+}
+
+/* conteúdo-3 */
+
+.cont-div3 {
+    display: flex;
+    align-content: center;
+    background-color: #616161;
+    border-top: 1px solid black;
+    border: 10px solid #262626;
+    padding: 10px;
+
+}
+.cont-div3-foto {
+    margin: auto;
+    padding: 80px;
+}
+
+/* Fim do conteúdo */
+
+/* Rodape */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #616161;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+.rod-txt {
+    padding: 80px;
+
+}
